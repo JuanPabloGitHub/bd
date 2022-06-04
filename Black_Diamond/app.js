@@ -3,8 +3,8 @@ const app = express();
 const path = require("path");
 
 app.listen(process.env.PORT || 3001, function() {
-console.log('Servidor corriendo en el puerto 3001')
-});
+    console.log('Servidor corriendo en el puerto 3001')
+    });
 
 app.use(express.static("public"));
 
